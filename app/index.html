@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="utf-8">
+  <title>My AngularJS App</title>
+  <link rel="stylesheet" href="/css/master.css">
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#/login">
+        登录
+      </a>
+      <a class="navbar-brand" href="#/register">
+        注册
+      </a>
+    </div>
+  </div>
+</nav>
+  </header>
+  <div class="container">
+    <div class="row">
+        <div ng-view></div>
+    </div>
+  </div>
+<footer>
+  <div class="container">
+    <p>
+      @lilu 630600276@qq.com
+    </p>
+  </div>
+</footer>
+
+
+
+
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+  -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/jquery/jquery-2.1.4.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/services.js"></script>
+  <script src="js/controllers.js"></script>
+  <script src="js/filters.js"></script>
+  <script src="js/directives.js"></script>
+</body>
+</html>
